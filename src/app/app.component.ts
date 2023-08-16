@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'jondev-app';
+
+  changeTitle () {
+    this.title = "Changed"
+  }
 }
